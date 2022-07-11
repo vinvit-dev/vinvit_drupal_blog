@@ -1,0 +1,9 @@
+.docksal
+/web/core
+.editorconfig
+.gitattributes
+.gitignore.*
+/vendor
+/web/sites/default
+/web/modules/contrib
+/web/themes/contrib

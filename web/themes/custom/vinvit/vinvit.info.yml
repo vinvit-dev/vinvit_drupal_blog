@@ -1,0 +1,15 @@
+name: "VinVit Theme"
+type: theme
+description: Theme for VinVit Blog
+core_version_requirement: ^8 || ^9 || ^10
+base theme: classy
+
+libraries:
+  - vinvit/global
+
+regions:
+  header: Header
+  main_header: 'Header with logo and ather links'
+  sidebar_second: 'Sidebar seconds'
+  content: 'Main content'
+  footer: Footer

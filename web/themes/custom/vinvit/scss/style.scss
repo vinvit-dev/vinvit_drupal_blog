@@ -1,0 +1,28 @@
+@import "variables";
+@import "fonts";
+
+* {
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  &:hover {
+    color: #333;
+  }
+}
+
+body {
+  font-family: 'Source Sans Pro', Sans-Serif;
+  background: $white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1190px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}

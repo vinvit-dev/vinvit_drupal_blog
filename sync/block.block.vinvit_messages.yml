@@ -1,0 +1,22 @@
+uuid: 62f090bb-03d7-4ce5-a1da-08f3d3dfeec0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vinvit
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: vinvit_messages
+theme: vinvit
+region: content
+weight: -3
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

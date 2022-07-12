@@ -1,0 +1,25 @@
+uuid: 960bf2ca-0028-4bfd-a571-ed2b61c915c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vinvit
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: vinvit_site_branding
+theme: vinvit
+region: main_header
+weight: -3
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

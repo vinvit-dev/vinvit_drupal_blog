@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: b26d8a4a-8c92-4726-bf49-832286415fe9
+name: vinvit
+mail: vitalik.pr.ua@gmail.com
+slogan: 'Improve skills together'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

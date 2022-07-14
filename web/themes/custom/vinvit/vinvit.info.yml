@@ -9,7 +9,8 @@ libraries:
 
 regions:
   header: Header
-  main_header: 'Header with logo and ather links'
+  main_header: 'Main Header'
+  navbar: 'Navbar'
   sidebar_second: 'Sidebar seconds'
   content: 'Main content'
   footer: Footer

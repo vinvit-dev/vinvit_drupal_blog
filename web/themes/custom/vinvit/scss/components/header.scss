@@ -1,27 +1,30 @@
 @import "../variables";
 
+header {
+  background: rgba($lighgray_bg, 0.95);
+  backdrop-filter: blur(10px);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.region-navbar {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
+
 .main_header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.region-main-header {
-  background: rgba($lighgray_bg, 0.75);
-  height: 100px;
-  display: flex;
-  align-items: center;
-}
-.banner_image {
-  position: absolute;
-  z-index: -10;
-  max-width: 100%;
-  width: 100%;
-  max-height: 800px;
-  object-fit: cover;
-}
-//.region-header {
-//  height: 100%;
-//  display: flex;
-//  align-items: center;
-//  justify-content: space-between;
-//}

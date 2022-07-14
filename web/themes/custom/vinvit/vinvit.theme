@@ -1,0 +1,4 @@
+<?php
+
+function vinvit_preprocess_node__page__full(&$variables) {
+}

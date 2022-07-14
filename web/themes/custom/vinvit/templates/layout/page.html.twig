@@ -1,9 +1,10 @@
 <div class="layout-container">
 
   <header role="banner">
-{#    <img src="{{ base_path ~ directory }}/images/banner.jpg" class="banner_image">#}
-    {{ page.header }}
-    {{ page.main_header }}
+    <div class="container header-container">
+      {{ page.main_header }}
+      {{ page.navbar }}
+    </div>
   </header>
 
   <main role="main">

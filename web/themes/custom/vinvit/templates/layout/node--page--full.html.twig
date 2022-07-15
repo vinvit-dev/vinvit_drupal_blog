@@ -88,6 +88,12 @@
   {% endif %}
   {{ title_suffix }}
 
+
+
+  <div{{ content_attributes.addClass('node__content') }}>
+    {{ content }}
+  </div>
+
   {% if display_submitted %}
     <footer class="node__meta">
       {{ author_picture }}
@@ -97,18 +103,4 @@
       </div>
     </footer>
   {% endif %}
-
-  <div{{ content_attributes.addClass('node__content') }}>
-    {% if content.field_banner_image.theme %}
-      <div class="is_banner">
-        {{ content.field_banner_image }}
-        {{ content.field_banner_text }}
-      </div>
-    {% else %}
-      <div class="no_banner">
-        {{ content.field_banner_text }}
-      </div>
-    {% endif %}
-  </div>
-
 </article>

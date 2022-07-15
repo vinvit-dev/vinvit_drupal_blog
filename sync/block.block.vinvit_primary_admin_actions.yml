@@ -1,6 +1,6 @@
 uuid: 7a051b34-7c70-479b-98ec-c3288b5f519f
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - vinvit
@@ -9,7 +9,7 @@ _core:
 id: vinvit_primary_admin_actions
 theme: vinvit
 region: content
-weight: -1
+weight: -3
 provider: null
 plugin: local_actions_block
 settings:

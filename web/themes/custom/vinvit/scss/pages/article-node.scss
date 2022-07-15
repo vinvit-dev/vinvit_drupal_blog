@@ -1,0 +1,27 @@
+@import "../variables";
+.node--type-article  {
+  font-family: "Source Sans Pro";
+  color: #333;
+  &.node--view-mode-full {
+    .field--name-body {
+      margin: 30px auto;
+      font-size: 16px;
+      p {
+        margin: 10px 0 0;
+      }
+      max-width: 1200px;
+      padding: 0 15px;
+    }
+    .field--name-title {
+      margin: 15px 0 30px;
+      display: block;
+      font-weight: 600;
+      text-align: center;
+      font-size: 32px;
+    }
+    .field--name-field-article-paragraphs > .field__item:nth-child(odd) {
+      background: rgba($lighgray_bg, 0.95);
+      padding: 10px 0;
+    }
+  }
+}

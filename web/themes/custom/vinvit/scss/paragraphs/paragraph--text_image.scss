@@ -1,0 +1,20 @@
+.paragraph--type--image-text, .paragraph--type--text-image {
+  & > div {
+    display: flex;
+    align-items: center;
+  }
+  margin: 30px 0;
+  color: #333;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  .field--name-field-image {
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  }
+  .field--name-field-text {
+    margin: 0 30px 0 0;
+  }
+}

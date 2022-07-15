@@ -1,0 +1,29 @@
+uuid: b276e6d6-5ac2-4f60-a6ae-4e708e080272
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_paragraphs
+    - node.type.article
+  module:
+    - entity_reference_revisions
+id: node.article.field_article_paragraphs
+field_name: field_article_paragraphs
+entity_type: node
+bundle: article
+label: 'Article paragraphs'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      article_paragraph:
+        weight: 2
+        enabled: false
+field_type: entity_reference_revisions

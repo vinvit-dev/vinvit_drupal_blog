@@ -18,12 +18,19 @@
         "composer/installers": "^1.9",
         "drupal/admin_toolbar": "^3.1",
         "drupal/auto_alter": "^1.14",
+        "drupal/cck_select_other": "^1.4",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/devel": "^4.1",
         "drupal/devel_kint_extras": "^1.0",
+        "drupal/jsonapi_extras": "^3.20",
+        "drupal/jsonapi_include": "^1.4",
+        "drupal/jsonapi_site": "^1.0",
+        "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.10",
+        "drupal/restui": "^1.20",
+        "drupal/select_or_other": "^4.0",
         "drush/drush": "^11.0"
     },
     "conflict": {
@@ -41,6 +48,8 @@
         "sort-packages": true
     },
     "extra": {
+        "patches": {
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

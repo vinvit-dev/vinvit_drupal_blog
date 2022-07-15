@@ -1,6 +1,6 @@
 uuid: 8d8d11e0-dd84-4360-b0a0-35a8aa6ffa32
 langcode: en
-status: false
+status: true
 dependencies:
   theme:
     - vinvit
@@ -9,7 +9,7 @@ _core:
 id: vinvit_secondary_local_tasks
 theme: vinvit
 region: content
-weight: 1
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

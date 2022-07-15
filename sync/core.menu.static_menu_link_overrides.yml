@@ -8,14 +8,20 @@ definitions:
     expanded: false
     enabled: true
   user__logout:
+    weight: -49
+    parent: ''
     menu_name: account
-    parent: user.page
-    weight: -50
     expanded: false
     enabled: true
   standard__front_page:
-    enabled: false
+    weight: -50
+    enabled: true
     menu_name: main
     parent: ''
     expanded: false
-    weight: 0
+  user__page:
+    weight: -50
+    menu_name: account
+    parent: ''
+    enabled: true
+    expanded: false

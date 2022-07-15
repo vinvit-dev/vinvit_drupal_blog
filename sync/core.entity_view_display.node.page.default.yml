@@ -3,13 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_banner_image
     - field.field.node.page.layout_builder__layout
     - node.type.page
   module:
     - layout_builder
     - layout_discovery
-    - text
+    - media
     - user
 third_party_settings:
   layout_builder:
@@ -21,24 +21,24 @@ third_party_settings:
         layout_settings:
           label: ''
         components:
-          d4414af9-054c-4753-a309-060566763e50:
-            uuid: d4414af9-054c-4753-a309-060566763e50
+          5c3cc88a-6022-4e94-977a-6814b637e3bc:
+            uuid: 5c3cc88a-6022-4e94-977a-6814b637e3bc
             region: content
             configuration:
-              id: 'field_block:node:page:title'
-              label: Title
+              id: 'field_block:node:page:field_banner_image'
               label_display: '0'
-              provider: layout_builder
               context_mapping:
                 entity: layout_builder.entity
-                view_mode: view_mode
               formatter:
-                type: string
+                type: media_thumbnail
                 label: hidden
                 settings:
-                  link_to_entity: false
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
                 third_party_settings: {  }
-            weight: 2
+            weight: 1
             additional: {  }
         third_party_settings: {  }
 _core:
@@ -48,17 +48,17 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    type: text_default
+  field_banner_image:
+    type: media_thumbnail
     label: hidden
-    settings: {  }
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-    weight: 100
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
 hidden:
   layout_builder__layout: true
+  links: true

@@ -1,0 +1,10 @@
+uuid: 9e538227-289d-4a6b-b7cb-e7ab379d8245
+langcode: en
+status: true
+dependencies: {  }
+id: text_image
+label: 'Text + Image'
+icon_uuid: null
+icon_default: null
+description: "2 colums\r\n| text | image |"
+behavior_plugins: {  }
